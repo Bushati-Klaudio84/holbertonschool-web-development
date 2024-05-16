@@ -1,8 +1,9 @@
-// 1-color_variable.scss
+// my style 
 
 $primary-color: #3D3D3D;
+
 body {
-    color: #3D3D3D; }
+    color: $primary-color; }
   
   p {
-    color: #3D3D3D; }
+    color: $primary-color; }
