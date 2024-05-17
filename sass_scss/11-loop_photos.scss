@@ -1,7 +1,11 @@
-// 10-import_photos.scss
+// _list-names.scss
 
-// Import the photo names
-@import 'photos';
+$list-names: julien, john, sam, damian;
+
+// 11-loop_photos.scss
+
+// Import the list of names
+@import 'list-names';
 
 // Iterate over the list and generate classes
 @each $name in $list-names {
