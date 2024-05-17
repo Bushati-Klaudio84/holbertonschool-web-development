@@ -1,0 +1,11 @@
+@import "your-image-file"; // Replace with the actual path to your image file
+
+// List of names
+$list-names: julien, john, sam, damian;
+
+// Create classes and assign background images
+@each $name in $list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
+  }
+}
