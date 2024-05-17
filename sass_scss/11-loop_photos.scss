@@ -1,12 +1,9 @@
-@import "your-image-file"; // Replace with the actual path to your image file
+// 10-import_photos.scss
 
-// List of names
-$list-names: julien, john, sam, damian;
+// Import the photo names
+@import 'photos';
 
-// Create classes and assign background images
-
-@import "list-names";
-
+// Iterate over the list and generate classes
 @each $name in $list-names {
   .photo-#{$name} {
     background: image-url("photos/#{$name}.jpg") no-repeat;
