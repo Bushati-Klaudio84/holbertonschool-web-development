@@ -4,6 +4,9 @@
 $list-names: julien, john, sam, damian;
 
 // Create classes and assign background images
+
+@import "list-names";
+
 @each $name in $list-names {
   .photo-#{$name} {
     background: image-url("photos/#{$name}.jpg") no-repeat;
