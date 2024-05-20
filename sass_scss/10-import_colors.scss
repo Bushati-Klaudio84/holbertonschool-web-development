@@ -1,5 +1,5 @@
 // 10-import_colors.scss
-@import "10-colors"; // Import colors from 10-colors.scss
+@import "10-colors.scss"; // Import colors from 10-colors.scss
 
 .red {
   color: $red; // Assign $red color to .red class
