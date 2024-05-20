@@ -1,10 +1,10 @@
-@import "functions"; // Assuming you have a functions.scss file
-
+/* All names */
 $list-names: julien john sam damian;
 
-@each $name in $list-names {
+@import "11-photos.scss"; // Import the file containing photo URLs
 
-  .#{$name}-photo {
+@each $name in $list-names {
+  .photo-#{$name} {
     background: image-url("photos/#{$name}.jpg") no-repeat;
   }
 }
