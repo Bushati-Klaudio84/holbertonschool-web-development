@@ -3,14 +3,14 @@
 
 // Now you can use the variables $red, $green, and $blue
 
-h1 {
-  color: $red;
+.red {
+  color: color.adjust($red, $red: 15);
 }
 
-p {
-  color: $green;
+.green {
+  color: color.adjust($green, $red: -10, $blue: 10);
 }
 
-.special {
-  color: $blue;
+.blue {
+  color: color.adjust($blue, $lightness: -30%, $alpha: -0.4);
 }
