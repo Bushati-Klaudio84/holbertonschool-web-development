@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAY;ACAZ,mBAAmB;ADKnB,IAAK;EACH,KAAK,ECLD,OAAO;;ADQb,MAAO;EACL,KAAK,ECRC,OAAO;;ADWf,KAAM;EACJ,KAAK,ECXA,OAAO",
-"sources": ["10-import_colors.scss","10-colors.scss"],
-"names": [.red, .green,.blue],
-"file": "10-colors.scss"
-}
