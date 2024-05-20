@@ -1,18 +1,10 @@
-// _list-names.scss
+@import "functions"; // Assuming you have a functions.scss file
 
-$list-names: julien, john, sam, damian;
+$list-names: julien john sam damian;
 
-// 11-loop_photos.scss
-
-// Import the list of names
-@import 'list-names';
-
-// Iterate over the list and generate classes
 @each $name in $list-names {
-  .photo-#{$name} {
+
+  .#{$name}-photo {
     background: image-url("photos/#{$name}.jpg") no-repeat;
   }
 }
-// _list-names.scss
-
-$list-names: julien, john, sam, damian;
