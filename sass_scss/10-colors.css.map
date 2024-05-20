@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,mBAAmB;ACEnB,IAAK;EACH,KAAK,EDFD,OAAO;;ACKb,MAAO;EACL,KAAK,EDLC,OAAO;;ACQf,KAAM;EACJ,KAAK,EDRA,OAAO",
+"sources": ["10-colors.scss","10-import_colors.scss"],
+"names": [],
+"file": "10-colors.css"
+}
