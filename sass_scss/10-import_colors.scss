@@ -1,16 +1,15 @@
 // Import the colors from 10-colors.scss
 @import "10-colors.scss";
 
-// Now you can use the variables $red, $green, and $blue
-
+// Assign colors to classes using variables
 .red {
-  color: color.adjust($red, $red: 15);
+  color: $red;
 }
 
 .green {
-  color: color.adjust($green, $red: -10, $blue: 10);
+  color: $green;
 }
 
 .blue {
-  color: color.adjust($blue, $lightness: -30%, $alpha: -0.4);
+  color: $blue;
 }
